@@ -1,0 +1,24 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  padding-top: 20px;
+  margin-top: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.footer li {
+  display: inline;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer li {
+    display: block;
+    padding: 0 20px;
+  }
+}

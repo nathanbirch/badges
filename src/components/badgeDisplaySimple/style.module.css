@@ -1,0 +1,65 @@
+.flexContainer {
+  display: flex;
+}
+.flexChild {
+  flex: 1;
+}
+.displayTab {
+  width: 100%;
+}
+.displayTab:hover {
+  cursor: pointer;
+  /* background-color: #71717186; */
+}
+.descriptionRight {
+  float: left !important;
+  text-align: left;
+  padding: 0 20px;
+  width: 100%;
+}
+.badgeImgSmall {
+  width: 70px;
+  margin: auto;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #0051a7;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  transition: transform 0.2s; /* Animation */
+}
+
+.badgeImgSmall:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.activeBadge {
+  width: 100% !important;
+  border-color: #007bff;
+}
+.activeBadge:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.style1 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category {
+  float: right;
+  font-size: smaller;
+  font-weight: lighter;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+/* 
+.displayTab tr td.nthChild(1) {
+
+} */
